@@ -1,0 +1,4 @@
+id;username;password;firstname;surname;age;userView
+1;fataydo;d1234;Fatih;Aydogan;22;true
+2;danernova;d4321;Daner Shahab;Mohamed;21;true
+3;admin123;hihi123;Lanz;Fred;37;false

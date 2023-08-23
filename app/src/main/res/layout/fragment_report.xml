@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.reportFragment"
+    android:background="@drawable/gradient_background"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/textViewIDReport"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_input"
+            android:ems="20"
+            android:hint="@string/repID"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/textViewSubjectReport"
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_input"
+            android:ems="20"
+            android:hint="@string/repSubject"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/textViewContextReport"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_input"
+            android:hint="@string/repContext"
+            android:padding="10dp"
+
+            />
+        <Button
+            android:id="@+id/buttonReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repSubmitButton"
+
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

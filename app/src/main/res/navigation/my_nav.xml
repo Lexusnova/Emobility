@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mapsFragment">
+
+    <fragment
+        android:id="@+id/favFragment"
+        android:name="com.example.emobility.fragments.FavFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_fav" />
+    <fragment
+        android:id="@+id/reportListFragment"
+        android:name="com.example.emobility.fragments.ReportListFragment"
+        android:label="Report List"
+        tools:layout="@layout/fragment_report_list" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.emobility.fragments.MapsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.example.emobility.fragments.reportFragment"
+        android:label="Report"
+        tools:layout="@layout/fragment_report" />
+</navigation>

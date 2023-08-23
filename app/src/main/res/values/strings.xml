@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Emobility</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_logging">LoggingActivity</string>
+
+
+    <!-- String used for LoggingActivity-->
+    <string name="logUsername">Username</string>
+    <string name="logPassword">Password</string>
+
+    <!-- String used for naming the Bottom Navigation Symbols -->
+    <string name="navHome">Home</string>
+    <string name="navReport">Report</string>
+    <string name="navFavourite">Favourite</string>
+    <string name="navReportList">ReportList</string>
+
+
+    <!-- String used for activity_report-->
+    <string name="ttt3">Name</string>
+
+    <!-- String used for activity_report_information-->
+    <string name="reportInformationDetails1"> DETAILS ABOUT THE REPORT:   </string>
+    <string name="reportInformationReportID"> ID of Report:  </string>
+    <string name="reportInformationRegard">Regard: </string>
+    <string name="reportInformationFunctionable">Functionable: </string>
+    <string name="reportInformationContext">Context: </string>
+
+    <string name="reportInformationDetails2"> DETAILS ABOUT THE STATION: </string>
+    <string name="reportInformationStationID">ID of Station: </string>
+    <string name="reportInformationOperator">Operator: </string>
+    <string name="reportInformationStreet">Street: </string>
+    <string name="reportInformationHouseNumber">House number: </string>
+    <string name="reportInformationPostCode">Post Code: </string>
+    <string name="reportInformationLocation">Location: </string>
+    <string name="reportInformationLongitude">Coordination longitude: </string>
+    <string name="reportInformationLatitude"> Latitude: </string>
+    <string name="reportInformationCoordination">Coordination longitude: .. Latitude: .. </string>
+
+
+
+
+
+
+    <!-- String used for Report Fragment -->
+    <string name="reportFragment">Report Fragment</string>
+    <string name="repSubject">Subject</string>
+    <string name="repContext">Context</string>
+    <string name="repStation">Station</string>
+    <string name="repID">ID</string>
+
+    <string name="repSubmitButton">Submit</string>
+    <!-- String used for ReportList Fragment -->
+    <string name="reportListFragment">Report Fragment</string>
+    <string name="reportListDeleteButton">Delete</string>
+    <string name="no_data_available">No data Available</string>
+    <!-- String used for Maps Fragment -->
+    <string name="mapsFragment">Report Fragment</string>
+    <!-- String used for Favourite Fragment -->
+    <string name="favouriteFragment">Report Fragment</string>
+
+    <string-array name="radius">
+        <item>0 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>40 km</item>
+        <item>50 km</item>
+    </string-array>
+</resources>
